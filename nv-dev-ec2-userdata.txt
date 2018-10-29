@@ -1,0 +1,9 @@
+#!/bin/bash
+cd /home/ec2-user/
+sudo wget https://github.com/tinkrbay/largescalearchitecture/archive/master.zip
+sudo unzip master.zip
+sudo rm -rf master.zip
+sudo mv /home/ec2-user/largescalearchitecture-master/test.sh .
+sudo tr -d '\r' <test.sh >test1.sh
+sudo chmod 755 test1.sh
+sudo rm -rf test.sh
