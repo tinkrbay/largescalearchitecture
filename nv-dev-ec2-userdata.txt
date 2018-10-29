@@ -6,4 +6,4 @@ sudo rm -rf master.zip
 sudo mv /home/ec2-user/largescalearchitecture-master/nv-dev-installer.sh .
 sudo tr -d '\r' <nv-dev-installer.sh >nv-dev-installer-new.sh
 sudo chmod 755 nv-dev-installer-new.sh
-sudo rm -rf nv-dev-installer-new.sh
+sudo rm -rf nv-dev-installer.sh
